@@ -9,7 +9,12 @@ def shout(word)
 end
 
 def repeat(word,times)
-  p "#{word} " * times.to_i
+  a= []
+  times.times do
+    a << word
+  end
+    a = a.join(' ')
+    p a
 end
 
 def start_of_word(word,letters)

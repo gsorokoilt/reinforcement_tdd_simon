@@ -20,7 +20,7 @@ class TestSimonSays < MiniTest::Test
   end
 
   def test_repeat
-    assert_equal "hello hello hello ", repeat("hello", 3)
+    assert_equal "hello hello hello", repeat("hello", 3)
   end
 
   def test_start_of_word_returns_first_letter
